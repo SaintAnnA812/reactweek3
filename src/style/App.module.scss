@@ -1,0 +1,41 @@
+#root {
+  max-width: 1000px;
+
+
+}
+
+.container {
+  display: flex;
+  background-color: #ededed;
+  margin: 10px;
+  padding: 10px;
+}
+
+.isSelected {
+  border: 5px solid rgb(93, 34, 255);
+  background-color: lightcoral;
+}
+
+.tarif1 {
+  background-color: aqua;
+}
+
+.tarif2 {
+  background-color: green;
+}
+
+.tarif4 {
+  background-color: grey;
+}
+
+.tarif1,
+.tarif2,
+
+.tarif4 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+}
